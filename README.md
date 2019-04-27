@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# fast-cache
 
-You can use the [editor on GitHub](https://github.com/lg1313113/fast-cache-linge.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+短小精悍的前端缓存工具，防止内存“侧漏”
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 简介
 
-### Markdown
+特色（推广的一些亮点）
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 安装下载
 
-```markdown
-Syntax highlighted code block
+- 下载地址 https://github.com/lg1313113/fast-cache/releases
+- 'npm i fast-cache-npm'
+- CDN http://unpkg.com/fast-cache-npm-linge/release/bundle.js
 
-# Header 1
-## Header 2
-### Header 3
+## 快速使用
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```js
+var FC = window.fastCache;
+var cache = new FC();
+cache.set('a', 100);
+alert(cache.get('a'));
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- [使用文档](./doc/use/README.md)
+- [二次开发文档](./doc/dev/README.md)
 
-### Jekyll Themes
+## 交流 & 提问
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lg1313113/fast-cache-linge.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- 提问：https://github.com/lg1313113/fast-cache/issues
+- QQ群、微信群（及时反馈）
 
-### Support or Contact
+## 关于作者
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- 个人主页
+- 收款二维码
